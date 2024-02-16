@@ -33,9 +33,9 @@ internal class Program
 
             int index = 0;
 
-            foreach (uint i in hf.Pixels)
+            foreach (UInt16 i in hf.Pixels)
             {
-                Pen pen = new Pen(Color.FromArgb(255, checked((int)i), checked((int)i), checked((int)i)));
+                Pen pen = new Pen(Color.FromArgb(255, (checked((int)i) / 32768) * 255, (checked((int)i) / 32768) * 255, (checked((int)i) / 32768) * 255));
                 Rectangle rectangle = new Rectangle(index - (int)hf.ImageSize.X * (index / (int)hf.ImageSize.X), (index / (int)hf.ImageSize.X), 1, 1);
                 graphics.DrawRectangle(pen, rectangle);
                 index++;
