@@ -60,9 +60,10 @@ internal class Program
 
             reader.Dispose();
 
-            Console.WriteLine(hf.Signature);
-
             Bitmap image = new(filename);
+
+            hf.ImageSize.X = image.Width;
+            hf.ImageSize.Y = image.Height;
 
             int index = 0;
 
