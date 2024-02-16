@@ -31,7 +31,7 @@ public class HeightField
         Field20 = reader.Read<float>();
         Field24 = reader.Read<float>();
         Field28 = reader.Read<float>();
-        Pixels = reader.ReadArray<UInt16>(16777216);
+        Pixels = reader.ReadArray<UInt16>(ImageSize.X*ImageSize.Y);
         Count = reader.Read<int>();
         Unk1 = reader.ReadArray<Height>(Count);
         Data = reader.ReadArray<byte>(16769024);
