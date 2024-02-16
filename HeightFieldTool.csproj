@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DiEventLibRefactor\Amicitia.IO\src\Amicitia.IO\Amicitia.IO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>E:\Steam\steamapps\common\BloonsTD6Modding\MelonLoader\net6\System.Drawing.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
