@@ -36,6 +36,29 @@ public class HeightField
         Unk1 = reader.ReadArray<Height>(Count);
         Data = reader.ReadArray<byte>(16769024);
     }
+
+    public void Write(BinaryObjectWriter writer)
+    {
+        writer.WriteString(StringBinaryFormat.FixedLength, Signature, 4);
+        writer.Skip(4);
+        writer.Write(Field08);
+        writer.Write(Field0c);
+        writer.Write(Field10);
+        writer.Write(ImageSize);
+        writer.Write(Field1c);
+        writer.Write(Field20);
+        writer.Write(Field24);
+        writer.Write(Field28);
+        writer.WriteArray(Pixels);
+        writer.Write(Count);
+        writer.WriteArray(Unk1);
+        writer.WriteArray(Data);
+
+        long size = writer.Position;
+
+        writer.Seek(4, SeekOrigin.Begin);
+        writer.Write((int)size);
+    }
 }
 
 public struct Height
