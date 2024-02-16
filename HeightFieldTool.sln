@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightFieldTool", "HeightFieldTool.csproj", "{71EA3996-BDB5-46B0-A6A5-2186D6E48390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amicitia.IO", "Amicitia.IO\src\Amicitia.IO\Amicitia.IO.csproj", "{31FCBF5C-8E59-443C-B36E-69224E3EBA69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amicitia.IO", "..\DiEventLibRefactor\Amicitia.IO\src\Amicitia.IO\Amicitia.IO.csproj", "{31FCBF5C-8E59-443C-B36E-69224E3EBA69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeightFieldTool", "HeightFieldTool\HeightFieldTool.csproj", "{F1644CBC-CB67-463A-965B-417CB6147905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71EA3996-BDB5-46B0-A6A5-2186D6E48390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71EA3996-BDB5-46B0-A6A5-2186D6E48390}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71EA3996-BDB5-46B0-A6A5-2186D6E48390}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71EA3996-BDB5-46B0-A6A5-2186D6E48390}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31FCBF5C-8E59-443C-B36E-69224E3EBA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31FCBF5C-8E59-443C-B36E-69224E3EBA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31FCBF5C-8E59-443C-B36E-69224E3EBA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31FCBF5C-8E59-443C-B36E-69224E3EBA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1644CBC-CB67-463A-965B-417CB6147905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1644CBC-CB67-463A-965B-417CB6147905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1644CBC-CB67-463A-965B-417CB6147905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1644CBC-CB67-463A-965B-417CB6147905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

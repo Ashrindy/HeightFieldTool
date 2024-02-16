@@ -5,16 +5,15 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DiEventLibRefactor\Amicitia.IO\src\Amicitia.IO\Amicitia.IO.csproj" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.Drawing.Common">
-      <HintPath>E:\Steam\steamapps\common\BloonsTD6Modding\MelonLoader\net6\System.Drawing.Common.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Amicitia.IO\src\Amicitia.IO\Amicitia.IO.csproj" />
   </ItemGroup>
 
 </Project>
