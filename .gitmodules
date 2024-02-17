@@ -1,3 +1,6 @@
 [submodule "Amicitia.IO"]
 	path = Amicitia.IO
 	url = https://github.com/tge-was-taken/Amicitia.IO
+[submodule "ImageSharp"]
+	path = ImageSharp
+	url = https://github.com/SixLabors/ImageSharp

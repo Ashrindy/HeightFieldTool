@@ -34,7 +34,7 @@ public class HeightField
         Pixels = reader.ReadArray<UInt16>(ImageSize.X*ImageSize.Y);
         Count = reader.Read<int>();
         Unk1 = reader.ReadArray<Height>(Count);
-        Data = reader.ReadArray<byte>(16769024);
+        Data = reader.ReadArray<byte>(ImageSize.X * (ImageSize.Y - 2));
     }
 
     public void Write(BinaryObjectWriter writer)
