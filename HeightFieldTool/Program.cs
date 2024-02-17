@@ -62,9 +62,6 @@ internal class Program
 
             Bitmap image = new(filename);
 
-            hf.ImageSize.X = image.Width;
-            hf.ImageSize.Y = image.Height;
-
             int index = 0;
 
             for (int y = 0; y < image.Height; y++)
