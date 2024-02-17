@@ -3,13 +3,10 @@ using System.Text;
 using System.Drawing;
 using System.Drawing.Imaging;
 using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Formats.Tiff;
 
 using Color = System.Drawing.Color;
 using Rectangle = System.Drawing.Rectangle;
-using SixLabors.ImageSharp.Advanced;
 using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
 
 namespace HeightFieldTool;
 
