@@ -17,7 +17,7 @@ A console app with simple capabilites of converting the .heightfield format to .
 |     [Amiticia.IO]([https://github.com/tge-was-taken/Amicitia.IO](https://github.com/tge-was-taken/Amicitia.IO))     | Used for its upgraded and better binary reader and writer |
 
 ## 📝 Guide 📝
-### .heightfield to .jpg
+### .heightfield to .tiff
 Just drag and drop the .heightfield onto the console app.
-### .jpg to .heightfield
-Have the original .heightfield next to the .jpg and then drag and drop the .jpg onto the console app.
+### .tiff to .heightfield
+Have the original .heightfield next to the .tiff and then drag and drop the .tiff onto the console app.
