@@ -1,3 +1,5 @@
+# !!! OBSOLETE - NEWER VERSION FOUND <a href="https://github.com/Ashrindy/HeightFielder">HERE</a> !!!
+
 # `HeightFieldTool (C# Console App)`
 **_C# console app for Sonic Frontiers (.heightfield)_**
 ## 📜 Description 📜
